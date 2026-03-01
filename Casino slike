@@ -1,0 +1,8 @@
+casino-game/
+ ├─ index.html
+ ├─ style.css
+ ├─ script.js
+ └─ images/
+     ├─ girl1.jpg
+     ├─ girl2.jpg
+     └─ girl3.jpg

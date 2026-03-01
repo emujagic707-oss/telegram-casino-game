@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Telegram Casino</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app">
+  <h1>🎰 Telegram Casino</h1>
+
+  <p class="tokens">💰 Tokeni: <span id="tokens">0</span></p>
+
+  <button id="clickBtn">👆 ZAPNI</button>
+
+  <div class="card">
+    <h2>🎰 Slot</h2>
+    <p id="slotResult">❔ ❔ ❔</p>
+    <button onclick="spinSlot()">Spin (10)</button>
+  </div>
+
+  <div class="card">
+    <h2>🛒 Shop</h2>
+    <button onclick="buyUpgrade()">Upgrade click +1 (50)</button>
+    <p>Level: <span id="upgrade">1</span></p>
+  </div>
+
+  <div class="card">
+    <h2>💎 VIP Hostess</h2>
+    <img id="girlImage" src="images/girl1.jpg" class="girl">
+    <p class="hint">Exclusive casino vibes 🔞</p>
+  </div>
+
+  <div class="card">
+    <h2>🎁 Daily Bonus</h2>
+    <button onclick="dailyBonus()">Claim +25</button>
+    <p id="bonusText"></p>
+  </div>
+
+  <p class="warning">
+    🔞 18+ Entertainment Theme<br>
+    No real money • Telegram Safe
+  </p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
